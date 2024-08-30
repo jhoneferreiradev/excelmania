@@ -12,7 +12,7 @@
 	<atom:link href="/feed" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Mon, 26 Aug 2024 16:08:42 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 30 Aug 2024 19:33:06 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,22 +20,237 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
-		<title>Hello world!</title>
-		<link>/hello-world.html</link>
-					<comments>/hello-world.html#comments</comments>
+		<title>Função DIAS</title>
+		<link>/funcao-dias.html</link>
 		
 		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 26 Aug 2024 16:08:42 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<pubDate>Fri, 30 Aug 2024 19:28:48 +0000</pubDate>
+				<category><![CDATA[Fórmulas e funções]]></category>
+		<category><![CDATA[calendário]]></category>
+		<category><![CDATA[dias]]></category>
+		<category><![CDATA[duração]]></category>
+		<category><![CDATA[fórmula]]></category>
+		<category><![CDATA[intervalo]]></category>
+		<category><![CDATA[intervalor de dias]]></category>
+		<category><![CDATA[tempo]]></category>
+		<guid isPermaLink="false">/?p=263</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-]]></content:encoded>
+					<description><![CDATA[A função DIAS no Excel calcula a diferença entre duas datas, retornando o número total de dias.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="263" class="elementor elementor-263">
+				<div class="elementor-element elementor-element-6612487 e-flex e-con-boxed e-con e-parent" data-id="6612487" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e7066f6 elementor-widget elementor-widget-heading" data-id="e7066f6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Função DIAS - Nunca foi tão simples calcular dias!</h2>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-12cce96 e-flex e-con-boxed e-con e-parent" data-id="12cce96" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-cfdf8d0 elementor-widget elementor-widget-text-editor" data-id="cfdf8d0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>Já tentou calcular quantos dias tem entre duas datas?</h5><h5>No Excel, a Função DIAS() funciona perfeitamente.</h5><h5> </h5><h5>A sintaxe é:</h5><h5> </h5><h5>=DIAS(DATA_FINAL;DATA_INICIAL)</h5><h5> </h5><h5>Quer ver como ela funciona?</h5><h5> </h5><h5>Tenho uma planilha organizando meus projetos pessoais. E estou colocando datas de Início e Fim.</h5><h5>Tendo essas duas datas, posso saber quantos dias duraram cada um.</h5><h5> </h5><h5>Vejam a planilha abaixo:</h5><div> </div><div> </div><div><img fetchpriority="high" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000050-b5107b609d/CalcularDias1.png" alt="" width="827" height="725" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000050-b5107b609d/CalcularDias1.png" /></div><div> </div><h5> </h5><h5>Vamos em D2 e colocaremos a Função:</h5><h5> </h5><h5>=DIAS(c2;b2)</h5><div> </div><div> </div><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000051-2d4a02f3c9/CalcularDias2.png" alt="" width="795" height="765" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000051-2d4a02f3c9/CalcularDias2.png" /></div><div> </div><div> </div><h5> </h5><h5> </h5><h5>Pronto!</h5><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000052-321843310e/CalcularDias3.png" alt="" width="823" height="767" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000052-321843310e/CalcularDias3.png" /></div><div> </div><h5>Replicando nas demais células&#8230;.agora sim! Sei como usar a Função DIAS()!!!</h5><h5> </h5><h5>E você?? Espero que sim! rs&#8217;</h5><h5> </h5><h5>Até a próxima!!!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
 					
-					<wfw:commentRss>/hello-world.html/feed</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>SE (IF) &#8211; Comportamento condicionado</title>
+		<link>/se-if-comportamento-condicionado.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2024 19:11:55 +0000</pubDate>
+				<category><![CDATA[Fórmulas e funções]]></category>
+		<category><![CDATA[condicional]]></category>
+		<category><![CDATA[fórmula]]></category>
+		<category><![CDATA[if]]></category>
+		<category><![CDATA[se]]></category>
+		<guid isPermaLink="false">/?p=238</guid>
+
+					<description><![CDATA[A fórmula SE no Excel permite criar condições que retornam valores diferentes com base em um teste lógico. Por exemplo, você pode usar SE para exibir "Aprovado" se uma nota for maior que 60, ou "Reprovado" se for menor. Este tutorial ensina como usá-la com exemplos simples.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="238" class="elementor elementor-238">
+				<div class="elementor-element elementor-element-d604f4c e-flex e-con-boxed e-con e-parent" data-id="d604f4c" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1305bf2 elementor-widget elementor-widget-heading" data-id="1305bf2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Função SE (IF)</h2>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-47e491cc e-flex e-con-boxed e-con e-parent" data-id="47e491cc" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ee1f308 elementor-widget elementor-widget-text-editor" data-id="ee1f308" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">A função SE() é muito conhecida para quem já utiliza o Excel. O maior problema desta função é que poucos sabem que&nbsp;podemos colocar vários se dentro de um só, ou seja, dentro de um única condição, eu posso ter vários.</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Por exemplo, a Escola Loucos por Excel, tem um regulamento para saber se um aluno está REPROVADO, em RECUPERAÇÃO, ou&nbsp;APROVADO. Se MÉDIA de suas 4 notas for maior ou igual a 7, ele está Aprovado. Se for entre 6 e 6,99 inclusive, está em Recuperação.&nbsp;E se for menor que 6, está REPROVADO.</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Como fazer isso sem perder tempo???</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">É facíl, considere a tabela abaixo:</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading"><img loading="lazy" decoding="async" alt="" height="695" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000043-8eff08ff9c/SE1.png" width="801"></h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading">Primeiro, vamos saber a média deste aluno. Vá em B7 e utilize a função MÉDIA:</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Sintaxe: =MÉDIA(CÉLULAS)</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">então, use em B7: =MÉDIA(B2:B5)&nbsp;</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading"><img loading="lazy" decoding="async" alt="" height="685" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000044-b126bb21fc/SE2.png" width="605"></h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading">Beleza! Já sabe usar a função MÉDIA, difícil?? Acho que não né? rs&#8217;</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Vamos continuar!</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Próximo passo: saber a situação deste indivíduo (bom, já sabemos que está de recuperação né?)</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Vamos em B9 e usaremos a função SE():</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Sintaxe: =SE(CONDIÇÃO;VALOR_VERDADEIR;VALOR_FALSO)</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">então, colocaremos:</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">=se(B7&gt;7;&#8221;APROVADO&#8221;;&#8230;.) Isso quer dizer que ser for maior que 7, aparecerá o texto entre as aspas duplas.</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Continuando&#8230;.</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">=se(B7&gt;7;&#8221;APROVADO&#8221;;se(B7&gt;5,99;&#8221;Recuperção&#8221;;&#8230;) &nbsp;EITA!!!! Outro SE()??? Pois é&#8230;ele será &#8220;ativado&#8221; caso B7 não&nbsp;seja maior que 7, em outras palavras, o 2º SE() é uma ação caso a condição for FALSA. Vamos continuar!!!</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">=se(B7&gt;7;&#8221;APROVADO&#8221;;se(B7&gt;5,99;&#8221;Recuperção&#8221;;&#8221;Reprovado&#8221;)) Pronto!!! Nem precisamos colocar se for menor que 5,99&#8230;</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Se B7 não for maior que 7, ele &#8220;ativará&#8221; o 2º SE(), e caso B7 não for maior que 5,99, ele exibirá o texto &#8220;Reprovado&#8221;.</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Vamos ver no que vai dar&#8230;.</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading"><img loading="lazy" decoding="async" alt="" height="703" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000045-5362655536/SE3.png" width="907"></h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading">Bom pessoal, espero que tenham gostado desse tutorial!!!</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Não esqueçam de curtir!</h5>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5 class="wp-block-heading">Até a próxima!</h5>
+<p><!-- /wp:heading --></p>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Congelar paines</title>
+		<link>/congelar-paines.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2024 18:04:43 +0000</pubDate>
+				<category><![CDATA[Recursos e ferramentas]]></category>
+		<category><![CDATA[congelar paineis]]></category>
+		<category><![CDATA[deixar coluna estática]]></category>
+		<category><![CDATA[deixar linha estática]]></category>
+		<guid isPermaLink="false">/?p=201</guid>
+
+					<description><![CDATA[Aprenda a deixar linhas superiores e/ou primeiras colunas congeladas com o recurso de Congelar paineis]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="201" class="elementor elementor-201">
+				<div class="elementor-element elementor-element-733e220 e-flex e-con-boxed e-con e-parent" data-id="733e220" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5d8dd95 elementor-widget elementor-widget-heading" data-id="5d8dd95" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Congelar painel</h2>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7f2a2d3d e-flex e-con-boxed e-con e-parent" data-id="7f2a2d3d" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-491013c6 elementor-widget elementor-widget-text-editor" data-id="491013c6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Congelar um painel, nada mais é do que você selecionar determinadas áreas da sua planilha que ficarão imóveis.</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Por exemplo, em uma agenda telefônica, seria interessante congelarmos as células que contém os nomes de cada coluna:</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Nome, Telefone.</h5>
+<p> </p>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading"><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000046-efd1ef1c2a/CongelarPainel1.png" alt="" width="907" height="757" /></h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5> </h5>
+<h5 class="wp-block-heading">Sendo assim, conforme for descendo pela barra de rolagem, todas as células da linha 1 não se moverá.</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Selecione a primeira linha que poderá ser movida (neste caso, a linha 2).</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Vá em EXIBIÇÃO &gt; CONGELAR PAINÉIS</h5>
+<p> </p>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading"><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000047-f0c2df1bda/CongelarPainel2.png" alt="" /></h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5> </h5>
+<h5 class="wp-block-heading">Temos 3 Opções e cada uma delas tem uma explicação:</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">CONGELAR PAINÉIS: Congela apenas as linhas ou colunas que estão selecionadas</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">CONGELAR LINHA SUPERIOR: Congela apenas a primeira linha da planilha</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">CONGELAR PRIMEIRA COLUNA: Congela apenas a primeira coluna da planilha</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} --><!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Podemos usar neste caso, ou a primeira ou a segunda, tanto faz. Eu utilizarei a primeira.</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Então com a segunda linha seleiconada, é só clicar em CONGELAR PAINÉIS (PRIMEIRA OPÇÃO).</h5>
+<p> </p>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading"><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000049-54751556f8/CongelarPainel4.png" alt="" width="859" height="729" /></h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5> </h5>
+<h5 class="wp-block-heading">Na imagem acima, perceba que as linhas começam em 1 e vão para 4. Literalmente a Linha 1 está CONGELADA</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Essa pequena opção, pode siginificar em não ter que ficar subindo na planilha pra saber o que aquela coluna representa.</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Espero que tenham gostado!!!</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Não deixem de curtir!</h5>
+<!-- /wp:heading --><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Até a próxima!</h5>
+<!-- /wp:heading -->						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
 		
 		
 			</item>

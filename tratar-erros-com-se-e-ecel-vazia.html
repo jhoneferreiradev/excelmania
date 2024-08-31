@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Página não encontrada &#8211; excelmania</title>
+		<title>Tratar erros com SE() e écél.vazia() &#8211; excelmania</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="alternate" type="application/rss+xml" title="Feed para excelmania &raquo;" href="/feed">
 <link rel="alternate" type="application/rss+xml" title="Feed de comentários para excelmania &raquo;" href="/comments/feed">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para excelmania &raquo; Tratar erros com SE() e écél.vazia()" href="/tratar-erros-com-se-e-ecel-vazia.html/feed">
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
 /*! This file is auto-generated */
@@ -37,6 +38,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel="stylesheet" id="hello-elementor-header-footer-css" href="/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.1.1" media="all">
 <link rel="stylesheet" id="elementor-post-5-css" href="/wp-content/uploads/elementor/css/post-5.css?ver=1725046978" media="all">
 <link rel="stylesheet" id="elementor-icons-ekiticons-css" href="/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.2.6" media="all">
+<link rel="stylesheet" id="swiper-css" href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="/wp-content/uploads/elementor/css/global.css?ver=1725046978" media="all">
+<link rel="stylesheet" id="elementor-post-363-css" href="/wp-content/uploads/elementor/css/post-363.css?ver=1725112211" media="all">
 <link rel="stylesheet" id="ekit-widget-styles-css" href="/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.2.6" media="all">
 <link rel="stylesheet" id="ekit-responsive-css" href="/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.2.6" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.1" media="all">
@@ -44,8 +48,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/posts/363">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.6.1">
+<link rel="canonical" href="/tratar-erros-com-se-e-ecel-vazia.html">
+<link rel="shortlink" href="/?p=363">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Ftratar-erros-com-se-e-ecel-vazia.html">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Ftratar-erros-com-se-e-ecel-vazia.html#038;format=xml">
+<meta name="description" content="Verifique se uma célula está vazia, retornando VERDADEIRO se estiver e FALSO se não estiver.">
 <meta name="generator" content="Elementor 3.23.4; features: e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_lazyload, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
 			<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -64,7 +74,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 					}
 				}</style>
 			</head>
-<body class="error404 elementor-default elementor-kit-5">
+<body class="post-template-default single single-post postid-363 single-format-standard elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-363">
 <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
 		<div data-elementor-type="wp-post" data-elementor-id="21" class="elementor elementor-21">
 				<div class="elementor-element elementor-element-36a2443 e-flex e-con-boxed e-con e-parent" data-id="36a2443" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -111,18 +121,67 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				</div>
 				</div>
 		</div>
-<main id="content" class="site-main">
-
-			<div class="page-header">
-			<h1 class="entry-title">A página não pode ser encontrada.</h1>
-		</div>
-	
-	<div class="page-content">
-		<p>Parece que nada foi encontrado neste local.</p>
-	</div>
-
-</main>
-<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
+		<div data-elementor-type="wp-post" data-elementor-id="363" class="elementor elementor-363">
+				<div class="elementor-element elementor-element-01d6df0 e-flex e-con-boxed e-con e-parent" data-id="01d6df0" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c9aa21e elementor-widget elementor-widget-heading" data-id="c9aa21e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tratar erros com SE() e écél.vazia()</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-51b1c06 elementor-widget elementor-widget-text-editor" data-id="51b1c06" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h5>Você também acha feio ficar aparecendo aqueles #ERRO#,ou #ND&#8230;?</h5>
+<h5>Além de chato, deixa o visual todo feio da nossa planilha.</h5>
+<h5>Lembrem-se: uma boa o visual da sua planilha, pode ajudar a</h5>
+<h5>entender melhor a informação que está nela.</h5>
+<h5> </h5>
+<h5>Para ajudarmos a entender melhor, olhem abaixo e vejam como</h5>
+<h5>está feia, e complexa de entender a planilha abaixo:</h5>
+<h5> </h5>
+<h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000035-b4877b67b6/ECelulaVazia1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000035-b4877b67b6/ECelulaVazia1.png"></h5>
+<h5> </h5>
+<h5>As células C2, C3, C4, C5 estão fazendo o seguinte cálculo: A/B</h5>
+<h5> </h5>
+<h5>Porém, vemos que em C2 e C5 estão mostrando valores de erro.</h5>
+<h5>Isso porque em C2, estamos divindo NULO por 4, e em C5 estamos</h5>
+<h5>dividindo 4 por NULO.</h5>
+<h5>Para resolvermos isso, usaremos 2 funções: se() e écél.vazia().</h5>
+<h5> </h5>
+<h5>A primeira é uma fórmula de condicionamento, muito utilizada.</h5>
+<h5> </h5>
+<h5>Sintaxe: =se(condição;valor_verdadeiro;valor_falso)</h5>
+<h5> </h5>
+<h5>A segunda é usada junto a fórmula SE, serve para saber se a célula</h5>
+<h5>está vazia (nula).</h5>
+<h5> </h5>
+<h5>Sintaxe: =écél.vazia(célula)</h5>
+<h5> </h5>
+<h5>Sabendo disso, vamos em C2, e digitamos:</h5>
+<h5> </h5>
+<h5>=se(écél.vazia(A2);&#8221;&#8221;;A2/B2)</h5>
+<h5> </h5>
+<h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000036-ca67ccb63e/ECelulaVazia2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000036-ca67ccb63e/ECelulaVazia2.png"></h5>
+<h5> </h5>
+<h5>Pronto!</h5>
+<h5>Ficará vazia pois, &#8220;&#8221; significa um espaço em branco.</h5>
+<h5>Já na célula C5:</h5>
+<h5>=se(écél.vazia(B5);&#8221;&#8221;;A5/B5)</h5>
+<h5> </h5>
+<h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000037-b5248b620a/ECelulaVazia3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000037-b5248b620a/ECelulaVazia3.png"></h5>
+<h5> </h5>
+<h5>Você pode utilizar vários Se dentro de outros Se.</h5>
+<h5>Por exemplo:</h5>
+<h5>=SE(ÉCÉL.VAZIA(A2);&#8221;&#8221;;SE(ÉCÉL.VAZIA(B2);&#8221;&#8221;;A2/B2))</h5>
+<h5> </h5>
+<h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000038-10ad911a6e/ECelulaVazia4.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000038-10ad911a6e/ECelulaVazia4.png"></h5>
+<h5> </h5>
+<h5>Pronto!!! Repita nas outras células e os erros desaparecerão!</h5>
+<h5>Até a próxima!!!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
 		<div data-elementor-type="wp-post" data-elementor-id="100" class="elementor elementor-100">
 				<div class="elementor-element elementor-element-cfc698b e-con-full e-flex e-con e-parent" data-id="cfc698b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-08e69c8 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading" data-id="08e69c8" data-element_type="widget" data-widget_type="heading.default">
@@ -164,9 +223,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				events.forEach( ( event ) => {
 					document.addEventListener( event, lazyloadRunObserver );
 				} );</script>
-			<link rel="stylesheet" id="swiper-css" href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
-<link rel="stylesheet" id="elementor-global-css" href="/wp-content/uploads/elementor/css/global.css?ver=1725046978" media="all">
-<script src="/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.1.1" id="hello-theme-frontend-js"></script>
+			<script src="/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.1.1" id="hello-theme-frontend-js"></script>
 <script src="/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.2.6" id="elementskit-framework-js-frontend-js"></script>
 <script id="elementskit-framework-js-frontend-js-after">var elementskit = {
 			resturl: '/wp-json/elementskit/v1/',
@@ -176,7 +233,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.4" id="elementor-frontend-modules-js"></script>
 <script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
-<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir vídeo","previous":"Anterior","next":"Próximo","close":"Fechar","a11yCarouselWrapperAriaLabel":"Carrossel | Rolagem horizontal: Setas para esquerda e direita","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Próximo slide","a11yCarouselFirstSlideMessage":"Este é o primeiro slide","a11yCarouselLastSlideMessage":"Este é o último slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos móveis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos móveis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.23.4","is_static":false,"experimentalFeatures":{"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_optimized_control_loading":true,"e_onboarding":true,"hello-theme-header-footer":true,"home_screen":true,"editor_v2":true,"ai-layout":true,"e_lazyload":true,"e_element_cache":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"139eeed2e6"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"Página não encontrada – excelmania","excerpt":""}};</script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir vídeo","previous":"Anterior","next":"Próximo","close":"Fechar","a11yCarouselWrapperAriaLabel":"Carrossel | Rolagem horizontal: Setas para esquerda e direita","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Próximo slide","a11yCarouselFirstSlideMessage":"Este é o primeiro slide","a11yCarouselLastSlideMessage":"Este é o último slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos móveis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos móveis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.23.4","is_static":false,"experimentalFeatures":{"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_optimized_control_loading":true,"e_onboarding":true,"hello-theme-header-footer":true,"home_screen":true,"editor_v2":true,"ai-layout":true,"e_lazyload":true,"e_element_cache":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"139eeed2e6"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":363,"title":"Tratar%20erros%20com%20SE%28%29%20e%20%C3%A9c%C3%A9l.vazia%28%29%20%E2%80%93%20excelmania","excerpt":"Verifique se uma célula está vazia, retornando VERDADEIRO se estiver e FALSO se não estiver.","featuredImage":false}};</script>
 <script src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4" id="elementor-frontend-js"></script>
 <script src="/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.2.6" id="animate-circle-js"></script>
 <script id="elementskit-elementor-js-extra">var ekit_config = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"cc4763670d"};</script>

@@ -12,7 +12,7 @@
 	<atom:link href="/feed" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Fri, 30 Aug 2024 19:33:06 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 13:36:06 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,320 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
+		<title>Função SOMA com função SE​</title>
+		<link>/funcao-soma-com-funcao-se.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 13:34:52 +0000</pubDate>
+				<category><![CDATA[Fórmulas e funções]]></category>
+		<category><![CDATA[função se]]></category>
+		<category><![CDATA[função soma]]></category>
+		<category><![CDATA[se]]></category>
+		<category><![CDATA[soma]]></category>
+		<guid isPermaLink="false">/?p=391</guid>
+
+					<description><![CDATA[Exemplo de utilização de duas funções: SOMA e SE]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="391" class="elementor elementor-391">
+				<div class="elementor-element elementor-element-1e7b602 e-flex e-con-boxed e-con e-parent" data-id="1e7b602" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e7d9026 elementor-widget elementor-widget-heading" data-id="e7d9026" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Função SOMA com função SE</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f5333ef elementor-widget elementor-widget-text-editor" data-id="f5333ef" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>Segue uma pergunta de um de nossos usuários:</h5><h5>Pergunta: Quero criar a seguinte fórmula:</h5><h5>Célula A , Célula B &#8230;<br />Se = A+B = ou &lt; C multiplicar por 7,5%; = ou &lt; D multiplicar por 15%; = ou &lt; E multiplicar por 22,5%; &gt; E multiplicar por 27,5</h5><h5>é possível?</h5><h5>Resposta: Sim! É possível!</h5><h5>Veja a imangem abaixo:</h5><h5>**Caso não consiga ver a fórmula: </h5><h5> </h5><h5>=SE(SOMA(A2:B2)&lt;c2;soma(a2:b2)*7,5%;se(soma(a2:b2)&lt;d2;soma(a2:b2)*15%;se(soma(a2:b2)&lt;e2;soma(a2:b2)*22,5%;se(soma(a2:b2)&gt;E2;SOMA(A2:B2)*27,5%))))&lt;/c2;soma(a2:b2)*7,5%;se(soma(a2:b2)&lt;d2;soma(a2:b2)*15%;se(soma(a2:b2)&lt;e2;soma(a2:b2)*22,5%;se(soma(a2:b2)&gt;</h5><div> </div><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000083-5b13f5d0a4/duv1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000083-5b13f5d0a4/duv1.png" /></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">Usando a fórmula &#8220;SE&#8221;, conseguimos fazer os cálculos. Utilizando o &#8220;Valor Falso&#8221; é possível testar outros possível valores para a soma de A2 com B2</span>.</h5><h5> </h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">Veja o resultado:</span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;"><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000084-63820647a0/duv2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000084-63820647a0/duv2.png" /></span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">Vamos fazer uma prova real:</span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">A2+B2 = 30</span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">30 é menor que C2? Ou seja, 30 é menor que 30? Não!</span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">Então, ele vai para o falso do primeiro &#8220;SE&#8221;.</span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">30 é menor que D2? Ou seja, 30 é menor que 40? Sim!!!</span></h5><h5><span style="color: #0b1b2b; font-family: Tahoma, sans-serif;">Então, 30*15%=4,5.</span></h5><h5> </h5><h5>Até a próxima!!!</h5><h5> </h5><h5> </h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Imprimindo no Excel &#8211; Dúvidas nunca mais!!!</title>
+		<link>/imprimindo-no-excel-duvidas-nunca-mais.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 13:21:07 +0000</pubDate>
+				<category><![CDATA[Recursos e ferramentas]]></category>
+		<category><![CDATA[impressão]]></category>
+		<category><![CDATA[imprimir]]></category>
+		<category><![CDATA[imprimir planilha]]></category>
+		<guid isPermaLink="false">/?p=386</guid>
+
+					<description><![CDATA[Aprenda a realizar impressão de dados a partir de uma planilha]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="386" class="elementor elementor-386">
+				<div class="elementor-element elementor-element-502da46 e-flex e-con-boxed e-con e-parent" data-id="502da46" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-227cdeb elementor-widget elementor-widget-heading" data-id="227cdeb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Imprimindo no Excel - Dúvidas nunca mais!!!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9d0bd0b elementor-widget elementor-widget-text-editor" data-id="9d0bd0b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>Muitas pessoas tem dificuldades de imprimir arquivos de Excel.</h5><h5>Este tutorial ensinará como imprimir os dados em uma única página.</h5><h5> </h5><h5>Primeiro passo, selecione os dados que serão impressos.</h5><h5> </h5><h5><img fetchpriority="high" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000053-497744b6c3/Imprimir1.png" alt="" width="783" height="729" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000053-497744b6c3/Imprimir1.png" /></h5><h5> </h5><h5> </h5><h5> </h5><h5> </h5><h5>Segundo, vá em Layout Página, selecione a opção</h5><h5> </h5><h5>ÁREA DE IMPRESSÃO &gt; DEFINIR ÁREA DE IMPRESSÃO</h5><h5> </h5><div> </div><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000054-7f2658020c/Imprimir2.png" alt="" width="935" height="731" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000054-7f2658020c/Imprimir2.png" /></h5><h5> </h5><h5> </h5><h5> </h5><h5> </h5><h5>Depois vai nas opções LARGURA e ALTURA, coloque como 1 PÁGINA nas duas opções.</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000060-794fb7a496/Imprimir3.png" alt="" width="532" height="506" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000060-794fb7a496/Imprimir3.png" /></h5><div> </div><div> </div><div> </div><div> </div><h5> </h5><h5> </h5><h5> </h5><div> </div><div><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000056-ca45ecc39a/Imprimir4.png" alt="" width="455" height="479" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000056-ca45ecc39a/Imprimir4.png" /></div><h5> </h5><h5> </h5><h5> </h5><h5> </h5><h5>Agora vamos imprimir, em ARQUIVO</h5><h5> </h5><h5><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000057-d5fa3d6f2b/Imprimir5.png" alt="" width="937" height="711" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000057-d5fa3d6f2b/Imprimir5.png" /></h5><h5> </h5><h5> </h5><h5> </h5><h5>Depois vamos em IMPRIMIR</h5><h5> </h5><h5> </h5><div> </div><h5><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000058-65a69679b3/Imprimir6.png" alt="" width="566" height="554" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000058-65a69679b3/Imprimir6.png" /></h5><h5> </h5><h5> </h5><h5> </h5><h5>Agora é só selecionar a impressora, analisar como o arquivo sairá na folha, definir a orientação (RETRATO ou PAISAGEM)</h5><h5>E por fim, selecionar IMPRIMIR e pronto!</h5><h5> </h5><div><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000061-06872077d6/Imprimir7.png" alt="" width="326" height="539" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000061-06872077d6/Imprimir7.png" /></div><div> </div><div> </div><div> </div><h5>Espero que tenham gostado!</h5><h5>Até a próxima!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Filtrar e colocar em ordem</title>
+		<link>/filtrar-colocar-ordem.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 13:17:26 +0000</pubDate>
+				<category><![CDATA[Recursos e ferramentas]]></category>
+		<category><![CDATA[colocar em ordem]]></category>
+		<category><![CDATA[filtrar]]></category>
+		<category><![CDATA[filtrar dados]]></category>
+		<category><![CDATA[filtro]]></category>
+		<category><![CDATA[ordem]]></category>
+		<category><![CDATA[ordenação]]></category>
+		<guid isPermaLink="false">/?p=377</guid>
+
+					<description><![CDATA[O recurso Filtrar e Colocar em Ordem no Excel permite organizar dados rapidamente, exibindo apenas as informações relevantes e classificando-as em ordem crescente ou decrescente.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="377" class="elementor elementor-377">
+				<div class="elementor-element elementor-element-1a08f61 e-flex e-con-boxed e-con e-parent" data-id="1a08f61" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2f91255 elementor-widget elementor-widget-heading" data-id="2f91255" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Filtrar e Colocar em Ordem!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0a597b3 elementor-widget elementor-widget-text-editor" data-id="0a597b3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h5>Em uma planilha com muitos dados, onde temos que ficar procurando, descendo na barra</h5><h5>de rolagem até chegar no registro, a ferramenta &#8220;Filtrar&#8221; é de suma importância para</h5><h5>ganharmos tempo.</h5><h5> </h5><h5>Considere uma lista telefônica onde temos vários registros.</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000039-6d95f6e8fb/Filtro1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000039-6d95f6e8fb/Filtro1.png" /></h5><h5> </h5><h5>Gostaria de verificar todos os registros que fazem parte do grupo de Amigos.</h5><h5>Estou procurando um conhecido meu, o João.</h5><h5> </h5><h5>Selecionarei as células que identificam os campos: A2:E2,</h5><h5>depois irei em DADOS &gt; FILTRO</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000040-060d20706b/Filtro2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000040-060d20706b/Filtro2.png" /></h5><h5> </h5><h5> </h5><h5> </h5><h5>Pronto!</h5><h5> </h5><h5>Está vendo aquelas setinhas ali? Clicando nela, aparecerá os itens que temos cadastados:</h5><h5>Família, Faculdade, Amigos. Irei desmarcar Família e Faculdade, para ver se encontro.</h5><h5> </h5><h5><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000041-958c196867/Filtro3.png" alt="" width="1017" height="687" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000041-958c196867/Filtro3.png" /></h5><h5> </h5><h5> </h5><h5><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000042-9d5649e534/Filtro4.png" alt="" width="1030" height="679" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000042-9d5649e534/Filtro4.png" /></h5><h5> </h5><h5> </h5><h5>Pronto!</h5><h5>E ainda posso colocar em ordem alfabética e tal&#8230;!</h5><h5> </h5><h5>Isso pode ajudar muito numa planilha com muitos dados, tirando o fato que nos ajuda a não</h5><h5>ficar vendo registros que não nos interessa.</h5><h5> </h5><h5>Espero que tenham gostado!</h5><h5>Até a próxima!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tratar erros com SE() e écél.vazia()</title>
+		<link>/tratar-erros-com-se-e-ecel-vazia.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 13:12:49 +0000</pubDate>
+				<category><![CDATA[Fórmulas e funções]]></category>
+		<category><![CDATA[cálula vazia]]></category>
+		<category><![CDATA[tratar erros]]></category>
+		<guid isPermaLink="false">/?p=363</guid>
+
+					<description><![CDATA[Verifique se uma célula está vazia, retornando VERDADEIRO se estiver e FALSO se não estiver.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="363" class="elementor elementor-363">
+				<div class="elementor-element elementor-element-01d6df0 e-flex e-con-boxed e-con e-parent" data-id="01d6df0" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c9aa21e elementor-widget elementor-widget-heading" data-id="c9aa21e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tratar erros com SE() e écél.vazia()</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-51b1c06 elementor-widget elementor-widget-text-editor" data-id="51b1c06" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h5>Você também acha feio ficar aparecendo aqueles #ERRO#,ou #ND&#8230;?</h5><h5>Além de chato, deixa o visual todo feio da nossa planilha.</h5><h5>Lembrem-se: uma boa o visual da sua planilha, pode ajudar a</h5><h5>entender melhor a informação que está nela.</h5><h5> </h5><h5>Para ajudarmos a entender melhor, olhem abaixo e vejam como</h5><h5>está feia, e complexa de entender a planilha abaixo:</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000035-b4877b67b6/ECelulaVazia1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000035-b4877b67b6/ECelulaVazia1.png" /></h5><h5> </h5><h5>As células C2, C3, C4, C5 estão fazendo o seguinte cálculo: A/B</h5><h5> </h5><h5>Porém, vemos que em C2 e C5 estão mostrando valores de erro.</h5><h5>Isso porque em C2, estamos divindo NULO por 4, e em C5 estamos</h5><h5>dividindo 4 por NULO.</h5><h5>Para resolvermos isso, usaremos 2 funções: se() e écél.vazia().</h5><h5> </h5><h5>A primeira é uma fórmula de condicionamento, muito utilizada.</h5><h5> </h5><h5>Sintaxe: =se(condição;valor_verdadeiro;valor_falso)</h5><h5> </h5><h5>A segunda é usada junto a fórmula SE, serve para saber se a célula</h5><h5>está vazia (nula).</h5><h5> </h5><h5>Sintaxe: =écél.vazia(célula)</h5><h5> </h5><h5>Sabendo disso, vamos em C2, e digitamos:</h5><h5> </h5><h5>=se(écél.vazia(A2);&#8221;&#8221;;A2/B2)</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000036-ca67ccb63e/ECelulaVazia2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000036-ca67ccb63e/ECelulaVazia2.png" /></h5><h5> </h5><h5>Pronto!</h5><h5>Ficará vazia pois, &#8220;&#8221; significa um espaço em branco.</h5><h5>Já na célula C5:</h5><h5>=se(écél.vazia(B5);&#8221;&#8221;;A5/B5)</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000037-b5248b620a/ECelulaVazia3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000037-b5248b620a/ECelulaVazia3.png" /></h5><h5> </h5><h5>Você pode utilizar vários Se dentro de outros Se.</h5><h5>Por exemplo:</h5><h5>=SE(ÉCÉL.VAZIA(A2);&#8221;&#8221;;SE(ÉCÉL.VAZIA(B2);&#8221;&#8221;;A2/B2))</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000038-10ad911a6e/ECelulaVazia4.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000038-10ad911a6e/ECelulaVazia4.png" /></h5><h5> </h5><h5>Pronto!!! Repita nas outras células e os erros desaparecerão!</h5><h5>Até a próxima!!!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Remover duplicatas</title>
+		<link>/remover-duplicatas.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 13:08:13 +0000</pubDate>
+				<category><![CDATA[Recursos e ferramentas]]></category>
+		<category><![CDATA[célula duplicada]]></category>
+		<category><![CDATA[duplicatas]]></category>
+		<category><![CDATA[remover duplicidade]]></category>
+		<guid isPermaLink="false">/?p=354</guid>
+
+					<description><![CDATA[Elimine registros duplicados em uma planilha, mantendo apenas os dados únicos. Isso é útil para limpar e organizar grandes conjuntos de dados. ]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="354" class="elementor elementor-354">
+				<div class="elementor-element elementor-element-e16725f e-flex e-con-boxed e-con e-parent" data-id="e16725f" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-39f443b elementor-widget elementor-widget-heading" data-id="39f443b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Remover Duplicatas</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-54df9dd elementor-widget elementor-widget-text-editor" data-id="54df9dd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>As vezes exportamos determinados arquivos para excel, e muitas das vezes informações duplicadas precisam ser excluídas.</h5><h5>No excel, existe uma opção que nos ajuda e muito!</h5><h5>Nesse exemplo abaixo temos um arquivo de nomes de pessoa, porém tem informações duplicadas.</h5><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000031-d83d5d93a0/RemoverDuplicatas1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000031-d83d5d93a0/RemoverDuplicatas1.png" /></div><h5> </h5><h5>Para remover, selecione o intervalo, vá em DADOS &gt; REMOVER DUPLICATAS.</h5><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000032-8b1548c0b2/RemoverDuplicatas2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000032-8b1548c0b2/RemoverDuplicatas2.png" /></div><div> </div><h5>Depois disso, clique em ok, e veja o resultado!</h5><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000033-b5ffeb6fd4/RemoverDuplicatas3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000033-b5ffeb6fd4/RemoverDuplicatas3.png" /></div><h5> </h5><h5>Pronto! Removidos!</h5><h5>É uma ferramenta muito simples, mas que pode nos ajudar a ganhar muito tempo!</h5><h5>Até a próxima!!!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PROCV &#8211; Procure itens na vertical</title>
+		<link>/procv.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 12:56:51 +0000</pubDate>
+				<category><![CDATA[Fórmulas e funções]]></category>
+		<category><![CDATA[busca condicional]]></category>
+		<category><![CDATA[busca de células]]></category>
+		<category><![CDATA[busca de itens]]></category>
+		<category><![CDATA[fórmula]]></category>
+		<category><![CDATA[procurar itens]]></category>
+		<category><![CDATA[procv]]></category>
+		<guid isPermaLink="false">/?p=347</guid>
+
+					<description><![CDATA[A função PROCV no Excel permite buscar um valor específico em uma coluna e retornar um valor correspondente de outra coluna na mesma linha. É ideal para encontrar dados em tabelas grandes de forma rápida.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="347" class="elementor elementor-347">
+				<div class="elementor-element elementor-element-9e58faa e-flex e-con-boxed e-con e-parent" data-id="9e58faa" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5cf70a5 elementor-widget elementor-widget-heading" data-id="5cf70a5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">PROCV - Procure itens na vertical</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2305a17 elementor-widget elementor-widget-text-editor" data-id="2305a17" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>A Função PROCV é bastante útil quando você tem uma matriz, e deseja saber o valor de uma célula, buscando por outra.</h5><h5>No exemplo abaixo, temos um mini cadastro de valores de passagem separados por destino, onde:</h5><h5>Passagem para Rio de Janeiro = R$ 300,00</h5><h5>Passagem para São Paulo = R$ 250,00</h5><h5>Passagem para Espírito Santo = R$ 175,00</h5><h5>Passagem para Paraná = R$ 150,00</h5><h5>Você precisará fazer uma lista de custos de passagens das viagens que o departamento comercial fará durante um determinado período.</h5><h5>Eles farão várias viagens. Como resolver isso para não ficar digitando sempre o valor da passagem? E se tivesse como digitar o destino e automaticamente o Excel informar o valor da passagem?</h5><h5>O PROCV fará isso pra você!</h5><h5>Veja a planilha abaixo:</h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000028-6a6236b607/ProcV1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000028-6a6236b607/ProcV1.png" /></h5><h5>A sintxe do PROCV é:</h5><p>=PROCV(CÉLULA_QUE_SERÁ_ANALISADA;MATRIZ_DE_BUSCA;NÚMERO_COLUNA;FALSO_OU_VERDADEIRO)</p><h5>Onde:</h5><div><h5>CÉLULA_QUE_SERÁ_ANALISADA é a célula que você digitará (tem que ser igual a coluna 1 da matriz do mini cadastro)</h5></div><div><h5>MATRIZ_DE_BUSCA é a matriz do mini cadastro. Nela tem o Destinho e a Passagem.</h5></div><div><h5>NÚMERO_COLUNA é o número da coluna onde se encontra o que você procura. No nosso caso é na segunda coluna</h5></div><div><h5>FALSO_OU_VERDADEIRO : Falso quando se quer um valor igual, Verdadeiro quando pode ser um valor aproximado.</h5></div><div><h5>**Usar verdadeiro é melhor utilizado quando pode ser um valor aproximado. No nosso exemplo não serve pois queremos que apareça somente o valor da passagem do Rio de Janeiro.</h5><h5>Suponha que tenhamos o também Rio Grande do Sul com valor de passagem R$ 100,00. Se digitarmos &#8220;Rio&#8221; entre A9 e A20, aparecá ao lado, o valor de passagem do primeiro &#8220;Rio..&#8221; que estiver no mini cadastro.**</h5></div><h5>Veremos na prática como ficará:</h5><h5>Vamos na célula B9 e digitaremos:</h5><h5>PROCV(A9:A20;A2:B5;2;FALSO), onde:</h5><h5>A9:A20 é o intervalo onde será digitado o DESTINO</h5><h5>A2:B5 é a Matriz onde se econtra o mini cadastro</h5><h5>2 é o número da coluna da Matriz onde se encontra o que queremos saber (PASSAGEM) &#8211; ** A primeira coluna contém o nome do DESTINO **.</h5><h5>FALSO significa que não quero valores aproximados, somente valores iguais.</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000029-0badc0da34/ProcV2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000029-0badc0da34/ProcV2.png" /></h5><h5>Agora ao digitar o DESTINO, aparecerá o valor da passagem, e não esqueça de replicar a fórmula nos campos abaixo.</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000030-6fb3570afc/ProcV3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000030-6fb3570afc/ProcV3.png" /></h5><h5> </h5><h5>Pronto!</h5><h5>Você já sabe fazer a função PROCV.</h5><h5>Para melhor atender essa função, <a href="/lista-suspensa-facilidade-na-entrada-de-dados.html" data-cke-saved-href="http://excelmania2.webnode.com/news/lista-suspensa-exterminar-erros-de-inser%C3%A7%C3%A3o/">clique aqui e veja como utilizar a lista suspensa</a> nas células de A9 à A20 para termos somente inserções válidas.</h5><h5>E caso queira proteger a coluna onde aparecerá o valor da passagem, <a href="/proteger-planilha.html" data-cke-saved-href="http://excelmania2.webnode.com/news/proteger-planilha-seguran%C3%A7a-em-primeiro-lugar%21/">clique aqui e veja Proteger Planilha.</a></h5><h5>Até a próxima!!!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Função CONT.SE() &#8211; contagem condicional de dados</title>
+		<link>/formula-cont-se.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 12:42:42 +0000</pubDate>
+				<category><![CDATA[Fórmulas e funções]]></category>
+		<category><![CDATA[cont]]></category>
+		<category><![CDATA[cont.se]]></category>
+		<category><![CDATA[contagem]]></category>
+		<category><![CDATA[contagem condicional]]></category>
+		<category><![CDATA[fórmula]]></category>
+		<category><![CDATA[função]]></category>
+		<category><![CDATA[se]]></category>
+		<guid isPermaLink="false">/?p=318</guid>
+
+					<description><![CDATA[Função CONT.SE() &#8211; contagem condicional de dados No excel existem várias fórmulas que podemos utilizar para ganhar tempo. A fórmula CONT.SE é um excelente exemplo. CONT.SE, traduzindo é: &#8220;Contar se&#8230;&#8221;, por exemplo, &#8220;Contar Alunos se Idade maior que 20&#8221;. A sintaxe dessa fórmula é: =cont.se(INTERVALO_A_SER_CONTADO;CONDIÇÃO) Suponha que temos uma lista de chamada, e desejamos saber [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="318" class="elementor elementor-318">
+				<div class="elementor-element elementor-element-c3dfe3f e-flex e-con-boxed e-con e-parent" data-id="c3dfe3f" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-8164a13 elementor-widget elementor-widget-heading" data-id="8164a13" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Função CONT.SE() - contagem condicional de dados</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9fb533e elementor-widget elementor-widget-text-editor" data-id="9fb533e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>No excel existem várias fórmulas que podemos utilizar para ganhar tempo.</h5><h5>A fórmula CONT.SE é um excelente exemplo.</h5><h5>CONT.SE, traduzindo é: &#8220;Contar se&#8230;&#8221;, por exemplo, &#8220;Contar Alunos se Idade maior que 20&#8221;.</h5><h5>A sintaxe dessa fórmula é:</h5><h5>=cont.se(INTERVALO_A_SER_CONTADO;CONDIÇÃO)</h5><h5>Suponha que temos uma lista de chamada, e desejamos saber quantas vezes João Silva (exemplo empregado na planilha abaixo) faltou e quantas vezes ele foi a sala de aula.</h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000022-bdc3fbebe3/ContSe1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000022-bdc3fbebe3/ContSe1.png" /></h5><h5> </h5><h5>Poderíamos contar manualmente, mas isso seria desagradável.</h5><h5>Então, usaremos nas células B19 e B20, a fórmula cont.se, condicionando contar em B19, todas quantas células de B3 à B17 tem a letra P (PRESENTE).</h5><h5>O mesmo faremos na B20, porém contará se for F (FALTOU).</h5><h5> </h5><h5>Com a célula B19 selecionada, digite:</h5><h5> </h5><h5>=cont.se(B3:B17;&#8221;P&#8221;) ou =cont.se(B3:B17;D2)</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000023-2e2f73023a/ContSe2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000023-2e2f73023a/ContSe2.png" /></h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000024-9399b9491f/ContSe3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000024-9399b9491f/ContSe3.png" /></h5><div> </div><h5>Pronto! Agora temos o resultado de quantas vezes João Silva foi presente na aula.</h5><h5> </h5><h5>Faça o mesmo, só que agora condicionando para contar se for FALTOU.</h5><h5>O resultado tem que ser 5 faltas.</h5><h5>Outro exemplo, é:</h5><h5>Numa empresa de 4 vendedores, foi preciso saber quantas vezes a meta foi alcançada e quantas vezes ela não foi alcançada.</h5><h5> </h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000025-06ef307e7c/ContSe4.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000025-06ef307e7c/ContSe4.png" /></h5><h5> </h5><h5>Vamos em D10 para colocarmos:</h5><h5>=CONT.SE(C3:F7;&#8221;&gt;=&#8221;&amp;A3)</h5><h5>** Precisei utilizar um símbolo de concatenação &#8216;&amp;&#8217; para poder fazer a condição. **</h5><h5>Nesse caso, isso significa: &#8220;contar quantas vezes o valor da venda foi maior ou igual a Meta estabelecida&#8221;</h5><h5><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000026-2c0242cfb4/ContSe5.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000026-2c0242cfb4/ContSe5.png" /></h5><h5>Observe também que o CONT.SE, pode selecionar uma matriz (linhas x colunas) e não somente um coluna.</h5><h5>Agora é sua vez, tente contar quantas vezes o valor da venda foi menor que a meta estabelecida.</h5><h5>A resposta tem que ser 12.</h5><h5>**Obs.: Não se esqueça de colocar tipo das células D10 e D11 como geral após a execução da fórmula.</h5><h5>Até a próxima!!!</h5>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Lista suspensa &#8211; facilidade na entrada de dados</title>
+		<link>/lista-suspensa-facilidade-na-entrada-de-dados.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 12:38:18 +0000</pubDate>
+				<category><![CDATA[Recursos e ferramentas]]></category>
+		<category><![CDATA[lista de dados]]></category>
+		<category><![CDATA[lista de opções]]></category>
+		<category><![CDATA[lista suspensa]]></category>
+		<category><![CDATA[opções]]></category>
+		<category><![CDATA[validação de dados]]></category>
+		<guid isPermaLink="false">/?p=309</guid>
+
+					<description><![CDATA[Com ela, você pode definir um conjunto de valores pré-determinados para o usuário escolher.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="309" class="elementor elementor-309">
+				<div class="elementor-element elementor-element-517e57d e-flex e-con-boxed e-con e-parent" data-id="517e57d" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2cf1fe7 elementor-widget elementor-widget-heading" data-id="2cf1fe7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Lista suspensa - facilidade na entrada de dados</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b20c603 elementor-widget elementor-widget-text-editor" data-id="b20c603" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>E se fosse possível fazer um menu de ítens do que pode ser inserido em determinada célula? Ou em um campo onde só podemos inserir uma data, como validar para não colocarem outro tipo de dado por exemplo? No Excel é possível mostrar opções para que seja inserido somente determinadas informações (um menu). Como?</h5><h5>Suponha que você deseja saber sobre suas saídas, e precisa indicar qual forma de pagamento. Na planilha abaixo, as células de A3 à A7 são as formas de pagamento possíveis. Quando for inserir em D3, D4, D5 e D6, devem ser mostrados essas formas de pagamento.</h5><div> </div><div> </div><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000015-864498836e/ListaSuspensa1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000015-864498836e/ListaSuspensa1.png" /></p><h5>Selecione as célula D3:D6 e vá em DADOS&gt;VALIDAÇÃO DE DADOS, selecione em PERMITIR a opção LISTA.</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000016-44cd946c11/ListaSuspensa2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000016-44cd946c11/ListaSuspensa2.png" /></p><h5>Em seguida no campo FONTE, selecione o intervalo A3:A7 (onde se econtram os nomes das formas de pagamento), e dê OK</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000017-3332e35232/ListaSuspensa3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000017-3332e35232/ListaSuspensa3.png" /></p><h5>Agora, selecione por exemplo, a D3 e veja uma setinha pra baixo. Clicando ali, teremos os itens a ser selecionado.</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000018-8c0098cfc2/ListaSuspensa4.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000018-8c0098cfc2/ListaSuspensa4.png" /></p><h5>Caso tente colocar outra coisa que não esteja dentro do &#8220;menu&#8221;, o Excel lhe avisará que não pode!</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000019-70a02719ce/ListaSuspensa5.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000019-70a02719ce/ListaSuspensa5.png" /></p><p> </p><p>Até a próxima!!!</p>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Proteger Planilha &#8211; bloqueie células e planilhas</title>
+		<link>/proteger-planilha.html</link>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2024 12:29:53 +0000</pubDate>
+				<category><![CDATA[Recursos e ferramentas]]></category>
+		<category><![CDATA[bloquear edição]]></category>
+		<category><![CDATA[proteger célula]]></category>
+		<category><![CDATA[proteger planilha]]></category>
+		<guid isPermaLink="false">/?p=291</guid>
+
+					<description><![CDATA[Proteger Planilha &#8211; bloqueie edições de células e planilhas Já ocorreu de ter um erro em sua planilha e quando você foi verificar, era uma célula que tinha em seu conteúdo uma fórmula, e esta estava apagada, ou alterada? Podemos Proteger essa célula e outras, ou até mesmo uma planilha inteira usando uma opção chamada [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="291" class="elementor elementor-291">
+				<div class="elementor-element elementor-element-0d7981b e-flex e-con-boxed e-con e-parent" data-id="0d7981b" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-8ede1d3 elementor-widget elementor-widget-heading" data-id="8ede1d3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Proteger Planilha - bloqueie edições de células e planilhas</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b57c234 elementor-widget elementor-widget-text-editor" data-id="b57c234" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>Já ocorreu de ter um erro em sua planilha e quando você foi verificar, era uma célula que tinha em seu conteúdo uma fórmula, e esta estava apagada, ou alterada? Podemos Proteger essa célula e outras, ou até mesmo uma planilha inteira usando uma opção chamada &#8220;Progeter Planilha&#8221;.</h5><h5>Mas antes de Proteger a Planilha, é necessário saber quais células você vai bloquear e quais poderão ser editadas.</h5><h5>Neste exemplo abaixo, eu quero deixar a coluna comissão bloqueada. E também quero ocultar a sua fórmula. As demais colunas eu quero deixar habilitado para edição.</h5><h5>Primeiro, selecionarei todas as célula, clicar com botão direito, ir em FORMATAR CÉLULAS.</h5><div> </div><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000012-dc8b6dd85f/Protecao1.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000012-dc8b6dd85f/Protecao1.png" /></p><h5>Depois, na aba Proteção, irei desmarcar a opção bloqueadas. Isso permitirá a edição em todas as células dessa planilha após a proteção da mesma.</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000013-e23c7e337b/Protecao2.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000013-e23c7e337b/Protecao2.png" /></p><h5> </h5><h5>Depois de der OK, irei agora proteger a coluna COMISSÃO, pois esta não poderá ser editada. Selecionarei somente essa coluna e farei o mesmo caminho, porém agora irei BLOQUEAR,E OCULTAR.</h5><h5>Ocultar irá ocultar o conteúdo da célula, inclusive a fórmula.</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000008-581a75a0c8/Protecao3.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000008-581a75a0c8/Protecao3.png" /></p><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000009-878658881d/Protecao4.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000009-878658881d/Protecao4.png" /></p><h5>Agora, irei proteger a planilha.</h5><h5>REVISÃO &gt; PROTEGER PLANILHA.</h5><h5>Aqui, você terá várias opções de proteção da planilha. Após escolher as que achar melhor, insira uma senha, confirme a mesma, e pronto! Sua planilha está protegida!</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000010-33d0134ca0/Protecao5.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000010-33d0134ca0/Protecao5.png" /></p><h5>Se você tentar editar, o Excel lhe avisa!</h5><p><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000011-c3483c4426/Protecao6.png" alt="" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000011-c3483c4426/Protecao6.png" /></p><p>Até a próxima!!!</p>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Função DIAS</title>
 		<link>/funcao-dias.html</link>
 		
@@ -51,200 +365,7 @@
 				<div class="elementor-element elementor-element-cfdf8d0 elementor-widget elementor-widget-text-editor" data-id="cfdf8d0" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.23.0 - 05-08-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>Já tentou calcular quantos dias tem entre duas datas?</h5><h5>No Excel, a Função DIAS() funciona perfeitamente.</h5><h5> </h5><h5>A sintaxe é:</h5><h5> </h5><h5>=DIAS(DATA_FINAL;DATA_INICIAL)</h5><h5> </h5><h5>Quer ver como ela funciona?</h5><h5> </h5><h5>Tenho uma planilha organizando meus projetos pessoais. E estou colocando datas de Início e Fim.</h5><h5>Tendo essas duas datas, posso saber quantos dias duraram cada um.</h5><h5> </h5><h5>Vejam a planilha abaixo:</h5><div> </div><div> </div><div><img fetchpriority="high" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000050-b5107b609d/CalcularDias1.png" alt="" width="827" height="725" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000050-b5107b609d/CalcularDias1.png" /></div><div> </div><h5> </h5><h5>Vamos em D2 e colocaremos a Função:</h5><h5> </h5><h5>=DIAS(c2;b2)</h5><div> </div><div> </div><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000051-2d4a02f3c9/CalcularDias2.png" alt="" width="795" height="765" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000051-2d4a02f3c9/CalcularDias2.png" /></div><div> </div><div> </div><h5> </h5><h5> </h5><h5>Pronto!</h5><div> </div><div><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000052-321843310e/CalcularDias3.png" alt="" width="823" height="767" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000052-321843310e/CalcularDias3.png" /></div><div> </div><h5>Replicando nas demais células&#8230;.agora sim! Sei como usar a Função DIAS()!!!</h5><h5> </h5><h5>E você?? Espero que sim! rs&#8217;</h5><h5> </h5><h5>Até a próxima!!!</h5>						</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SE (IF) &#8211; Comportamento condicionado</title>
-		<link>/se-if-comportamento-condicionado.html</link>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Fri, 30 Aug 2024 19:11:55 +0000</pubDate>
-				<category><![CDATA[Fórmulas e funções]]></category>
-		<category><![CDATA[condicional]]></category>
-		<category><![CDATA[fórmula]]></category>
-		<category><![CDATA[if]]></category>
-		<category><![CDATA[se]]></category>
-		<guid isPermaLink="false">/?p=238</guid>
-
-					<description><![CDATA[A fórmula SE no Excel permite criar condições que retornam valores diferentes com base em um teste lógico. Por exemplo, você pode usar SE para exibir "Aprovado" se uma nota for maior que 60, ou "Reprovado" se for menor. Este tutorial ensina como usá-la com exemplos simples.]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="238" class="elementor elementor-238">
-				<div class="elementor-element elementor-element-d604f4c e-flex e-con-boxed e-con e-parent" data-id="d604f4c" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-1305bf2 elementor-widget elementor-widget-heading" data-id="1305bf2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Função SE (IF)</h2>		</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-47e491cc e-flex e-con-boxed e-con e-parent" data-id="47e491cc" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-ee1f308 elementor-widget elementor-widget-text-editor" data-id="ee1f308" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">A função SE() é muito conhecida para quem já utiliza o Excel. O maior problema desta função é que poucos sabem que&nbsp;podemos colocar vários se dentro de um só, ou seja, dentro de um única condição, eu posso ter vários.</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Por exemplo, a Escola Loucos por Excel, tem um regulamento para saber se um aluno está REPROVADO, em RECUPERAÇÃO, ou&nbsp;APROVADO. Se MÉDIA de suas 4 notas for maior ou igual a 7, ele está Aprovado. Se for entre 6 e 6,99 inclusive, está em Recuperação.&nbsp;E se for menor que 6, está REPROVADO.</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Como fazer isso sem perder tempo???</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">É facíl, considere a tabela abaixo:</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading"><img loading="lazy" decoding="async" alt="" height="695" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000043-8eff08ff9c/SE1.png" width="801"></h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading">Primeiro, vamos saber a média deste aluno. Vá em B7 e utilize a função MÉDIA:</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Sintaxe: =MÉDIA(CÉLULAS)</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">então, use em B7: =MÉDIA(B2:B5)&nbsp;</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading"><img loading="lazy" decoding="async" alt="" height="685" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000044-b126bb21fc/SE2.png" width="605"></h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading">Beleza! Já sabe usar a função MÉDIA, difícil?? Acho que não né? rs&#8217;</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Vamos continuar!</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Próximo passo: saber a situação deste indivíduo (bom, já sabemos que está de recuperação né?)</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Vamos em B9 e usaremos a função SE():</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Sintaxe: =SE(CONDIÇÃO;VALOR_VERDADEIR;VALOR_FALSO)</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">então, colocaremos:</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">=se(B7&gt;7;&#8221;APROVADO&#8221;;&#8230;.) Isso quer dizer que ser for maior que 7, aparecerá o texto entre as aspas duplas.</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Continuando&#8230;.</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">=se(B7&gt;7;&#8221;APROVADO&#8221;;se(B7&gt;5,99;&#8221;Recuperção&#8221;;&#8230;) &nbsp;EITA!!!! Outro SE()??? Pois é&#8230;ele será &#8220;ativado&#8221; caso B7 não&nbsp;seja maior que 7, em outras palavras, o 2º SE() é uma ação caso a condição for FALSA. Vamos continuar!!!</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">=se(B7&gt;7;&#8221;APROVADO&#8221;;se(B7&gt;5,99;&#8221;Recuperção&#8221;;&#8221;Reprovado&#8221;)) Pronto!!! Nem precisamos colocar se for menor que 5,99&#8230;</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Se B7 não for maior que 7, ele &#8220;ativará&#8221; o 2º SE(), e caso B7 não for maior que 5,99, ele exibirá o texto &#8220;Reprovado&#8221;.</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Vamos ver no que vai dar&#8230;.</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading"><img loading="lazy" decoding="async" alt="" height="703" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000045-5362655536/SE3.png" width="907"></h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading"><br></h5><h5 class="wp-block-heading">Bom pessoal, espero que tenham gostado desse tutorial!!!</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Não esqueçam de curtir!</h5>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:heading {"level":5} --></p>
-<h5 class="wp-block-heading">Até a próxima!</h5>
-<p><!-- /wp:heading --></p>						</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Congelar paines</title>
-		<link>/congelar-paines.html</link>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Fri, 30 Aug 2024 18:04:43 +0000</pubDate>
-				<category><![CDATA[Recursos e ferramentas]]></category>
-		<category><![CDATA[congelar paineis]]></category>
-		<category><![CDATA[deixar coluna estática]]></category>
-		<category><![CDATA[deixar linha estática]]></category>
-		<guid isPermaLink="false">/?p=201</guid>
-
-					<description><![CDATA[Aprenda a deixar linhas superiores e/ou primeiras colunas congeladas com o recurso de Congelar paineis]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="201" class="elementor elementor-201">
-				<div class="elementor-element elementor-element-733e220 e-flex e-con-boxed e-con e-parent" data-id="733e220" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-5d8dd95 elementor-widget elementor-widget-heading" data-id="5d8dd95" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Congelar painel</h2>		</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-7f2a2d3d e-flex e-con-boxed e-con e-parent" data-id="7f2a2d3d" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-491013c6 elementor-widget elementor-widget-text-editor" data-id="491013c6" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Congelar um painel, nada mais é do que você selecionar determinadas áreas da sua planilha que ficarão imóveis.</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Por exemplo, em uma agenda telefônica, seria interessante congelarmos as células que contém os nomes de cada coluna:</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Nome, Telefone.</h5>
-<p> </p>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading"><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000046-efd1ef1c2a/CongelarPainel1.png" alt="" width="907" height="757" /></h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5> </h5>
-<h5 class="wp-block-heading">Sendo assim, conforme for descendo pela barra de rolagem, todas as células da linha 1 não se moverá.</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Selecione a primeira linha que poderá ser movida (neste caso, a linha 2).</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Vá em EXIBIÇÃO &gt; CONGELAR PAINÉIS</h5>
-<p> </p>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading"><img decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000047-f0c2df1bda/CongelarPainel2.png" alt="" /></h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5> </h5>
-<h5 class="wp-block-heading">Temos 3 Opções e cada uma delas tem uma explicação:</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">CONGELAR PAINÉIS: Congela apenas as linhas ou colunas que estão selecionadas</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">CONGELAR LINHA SUPERIOR: Congela apenas a primeira linha da planilha</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">CONGELAR PRIMEIRA COLUNA: Congela apenas a primeira coluna da planilha</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} --><!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Podemos usar neste caso, ou a primeira ou a segunda, tanto faz. Eu utilizarei a primeira.</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Então com a segunda linha seleiconada, é só clicar em CONGELAR PAINÉIS (PRIMEIRA OPÇÃO).</h5>
-<p> </p>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading"><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000049-54751556f8/CongelarPainel4.png" alt="" width="859" height="729" /></h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5> </h5>
-<h5 class="wp-block-heading">Na imagem acima, perceba que as linhas começam em 1 e vão para 4. Literalmente a Linha 1 está CONGELADA</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Essa pequena opção, pode siginificar em não ter que ficar subindo na planilha pra saber o que aquela coluna representa.</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Espero que tenham gostado!!!</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Não deixem de curtir!</h5>
-<!-- /wp:heading --><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Até a próxima!</h5>
-<!-- /wp:heading -->						</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h5>Já tentou calcular quantos dias tem entre duas datas?</h5><h5>No Excel, a Função DIAS() funciona perfeitamente.</h5><h5> </h5><h5>A sintaxe é:</h5><h5> </h5><h5>=DIAS(DATA_FINAL;DATA_INICIAL)</h5><h5> </h5><h5>Quer ver como ela funciona?</h5><h5> </h5><h5>Tenho uma planilha organizando meus projetos pessoais. E estou colocando datas de Início e Fim.</h5><h5>Tendo essas duas datas, posso saber quantos dias duraram cada um.</h5><h5> </h5><h5>Vejam a planilha abaixo:</h5><div> </div><div> </div><div><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000050-b5107b609d/CalcularDias1.png" alt="" width="827" height="725" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000050-b5107b609d/CalcularDias1.png" /></div><div> </div><h5> </h5><h5>Vamos em D2 e colocaremos a Função:</h5><h5> </h5><h5>=DIAS(c2;b2)</h5><div> </div><div> </div><div> </div><div><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000051-2d4a02f3c9/CalcularDias2.png" alt="" width="795" height="765" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000051-2d4a02f3c9/CalcularDias2.png" /></div><div> </div><div> </div><h5> </h5><h5> </h5><h5>Pronto!</h5><div> </div><div><img loading="lazy" decoding="async" src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000052-321843310e/CalcularDias3.png" alt="" width="823" height="767" data-cke-saved-src="https://b4790bdc9e.cbaul-cdnwnd.com/9c8163a5d50cb7059bd842fa2204f434/200000052-321843310e/CalcularDias3.png" /></div><div> </div><h5>Replicando nas demais células&#8230;.agora sim! Sei como usar a Função DIAS()!!!</h5><h5> </h5><h5>E você?? Espero que sim! rs&#8217;</h5><h5> </h5><h5>Até a próxima!!!</h5>						</div>
 				</div>
 					</div>
 				</div>
